@@ -1,0 +1,134 @@
+/* ---------- layout ---------- */
+
+.dashboard {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 24px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont;
+}
+
+.panel {
+  background: #ffffff;
+  border: 1px solid #e5e7eb;
+  border-radius: 8px;
+  padding: 16px;
+}
+
+/* ---------- filters ---------- */
+
+select,
+button {
+  padding: 6px 10px;
+  border-radius: 6px;
+  border: 1px solid #d1d5db;
+  background: #fff;
+}
+
+button {
+  cursor: pointer;
+}
+
+button:disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+}
+
+/* ---------- table ---------- */
+
+.logs-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 12px;
+}
+
+.logs-table th {
+  text-align: left;
+  font-size: 13px;
+  color: #374151;
+  border-bottom: 2px solid #e5e7eb;
+  padding: 8px;
+}
+
+.logs-table td {
+  padding: 8px;
+  border-bottom: 1px solid #f1f5f9;
+  font-size: 14px;
+}
+
+.logs-table tr:hover {
+  background: #f9fafb;
+}
+
+.logs-table tr.selected {
+  background: #eef2ff;
+}
+
+.logs-table tbody tr {
+  cursor: pointer;
+}
+
+
+/* ---------- levels ---------- */
+
+.level.info {
+  color: #6b7280;
+}
+
+.level.warn {
+  color: #d97706;
+  font-weight: 500;
+}
+
+.level.error {
+  color: #dc2626;
+  font-weight: 600;
+}
+
+/* ---------- details ---------- */
+
+.details-panel {
+  margin-top: 24px;
+  background: #f9fafb;
+  border: 1px solid #e5e7eb;
+  border-radius: 8px;
+  padding: 16px;
+}
+
+.details-panel h3,
+.details-panel h4 {
+  margin-top: 0;
+}
+
+/* ---------- stacktrace ---------- */
+
+.stacktrace {
+  background: #0f172a;
+  color: #e5e7eb;
+  padding: 12px;
+  border-radius: 6px;
+  overflow-x: auto;
+  font-size: 13px;
+}
+
+/* ---------- AI summary ---------- */
+
+.ai-summary {
+  background: #f8fafc;
+  border-left: 4px solid #6366f1;
+  padding: 12px;
+  white-space: pre-wrap;
+  border-radius: 6px;
+}
+
+/* ---------- AI button ---------- */
+
+.ai-button {
+  margin-top: 8px;
+  background: #6366f1;
+  color: #fff;
+  border: none;
+}
+
+.ai-button:hover {
+  background: #4f46e5;
+}
