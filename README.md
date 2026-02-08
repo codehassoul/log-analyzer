@@ -1,4 +1,4 @@
-# Log Analyzer (MVP)
+# AI Log Analyzer (MVP)
 
 A minimal log analysis system that stores logs, groups recurring `ERROR` events deterministically, and generates on-demand AI summaries.
 
